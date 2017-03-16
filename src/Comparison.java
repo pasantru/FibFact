@@ -60,6 +60,9 @@
                             break;
             case "calendar":System.out.printf("%s ", "Type the number of days for the calendar:");
                             int n4 = sc.nextInt();
+                            System.out.printf("%s ", "Type the number of subjects for the calendar:");
+                            int n5 = sc.nextInt();
+                            Calendario cal = new Calendario(n4,n5);
                             Calendario cal = new Calendario(n4);
                             cal.imprimirTabla();
                             break;
